@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "monitor": "nodemon ./bin/www"
+    "monitor": "nodemon ./bin/www",
+    "simpleSale": "node ./client/simpleSale.js"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
